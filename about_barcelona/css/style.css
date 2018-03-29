@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+.header {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	line-height: 50px;
+	background: #dc886521;
+	height: 50px;
+	color: #886a5f;
+}
+
+.background {
+	height: 600px;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text {
+	font-family: 'Lora', serif;
+	line-height: 20px;
+}
+
+.main {
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+.link {
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+	background: #dc886521;
+	height: 50px;
+}
+
