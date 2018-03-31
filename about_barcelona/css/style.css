@@ -20,7 +20,7 @@
 }
 
 .text {
-	font-family: 'Lora', serif;
+	font-family: 'Lora', serif; /* можно было задать шрифт один раз для всего текста, а переопределить только для header */
 	line-height: 20px;
 }
 
@@ -35,6 +35,6 @@
 	text-decoration: none;
 	line-height: 50px;
 	background: #dc886521;
-	height: 50px;
+	height: 50px; 
 }
 
