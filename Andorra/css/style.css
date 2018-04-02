@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+.heading {
+	height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0dbd347;
+    color: #5c1eca;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+h1, h3 {
+	font-size: 30px;
+}
+
+.link {
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.link a {
+	margin: 0 20px;
+}
+
+.header_image {
+	height: 450px;
+    display: flex;
+    background-image: url(../img/andorra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #231611;
+    text-shadow: 1px 1px 5px white;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.header_image h2{
+	margin: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Lobster', cursive;
+    font-weight: 700;
+}
+
+.section_image {
+	display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.main_text {
+	box-shadow: 2px 2px 10px #5e3bcb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 25px 50px;
+    padding: 20px;
+}
+ .main_text h3 {
+ 	margin-bottom: 20px; 
+ }
+
+ p {
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-weight: 400;
+ }
+
+ .footer {
+ 	background-color: #e0dbd347;
+    color: #5c1eca;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+ }
