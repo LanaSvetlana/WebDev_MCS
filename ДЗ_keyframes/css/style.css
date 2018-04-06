@@ -3,6 +3,7 @@
 @keyframes rotate {
 		/*задайте ваш keyframe здесь*/
 		from {
+			/* зачем так много всего, если надо только поворачивать блок? */
 			transform: rotate(0deg) translateX(500px) rotate(0deg);
 		}
 		to {
@@ -36,6 +37,6 @@
 		margin-top: -200px;
 		margin-left: -200px;
 		/* вызовите вашу анимацию здесь */
-		transform: rotate(45deg) translateX(500px) rotate(-45deg);
+		transform: rotate(45deg) translateX(500px) rotate(-45deg); /* зачем этот трансформ. если нужно только вызвать анимацию? */
 		animation: rotate 20s linear infinite;
 	}
