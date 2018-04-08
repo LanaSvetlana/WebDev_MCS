@@ -2,10 +2,10 @@
 
 @keyframes rotate {
 		/*задайте ваш keyframe здесь*/
+		/*from {
+		transform: rotate(0deg) translateX(500px) rotate(0deg);
+		}*/
 		from {
-			transform: rotate(0deg) translateX(500px) rotate(0deg);
-		}
-		to {
 			transform: rotate(360deg) translateX(500px) rotate(-360deg);
 		}
 	}
@@ -13,13 +13,15 @@
 		/* эти единицы измерения мы изучим чуть похже */
 		width: 100vw;
 		height: 100vh;
-		background-image: url(http://pa7lux.ru/mcs/space_pattern.jpg);			display: flex;
+		background-image: url(http://pa7lux.ru/mcs/space_pattern.jpg);			
+		display: flex;
 		position: relative;
 	}
 	.sun {
 		width: 300px;
 		height: 300px;
-		background-image: url(http://pa7lux.ru/mcs/sun.png);			background-size: cover;
+		background-image: url(http://pa7lux.ru/mcs/sun.png);			
+		background-size: cover;
 		background-position: center;
 		margin: auto;
 	}
@@ -36,6 +38,6 @@
 		margin-top: -200px;
 		margin-left: -200px;
 		/* вызовите вашу анимацию здесь */
-		transform: rotate(45deg) translateX(500px) rotate(-45deg);
+		/*transform: rotate(45deg) translateX(500px) rotate(-45deg);*/
 		animation: rotate 20s linear infinite;
 	}
