@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+.header {
+	text-align: left;
+    font-size: 45px;
+    line-height: 50px;
+    background: #4242d6;
+    height: 50px;
+    color: white;
+}
+
+
+.columns {
+	width: 80vw;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;	
+}
+
+.column {
+	width: calc((100% - 50px)/3);
+	height: 100%;
+	background-color: lightgrey;
+	border: 2px solid #4242d6;
+}
+
+.image1, .image2, .image3 {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;	
+}
+.image1 {
+	background-image: url(../img/one.jpg);
+}
+.image2 {
+	background-image: url(../img/two.jpg);
+}
+.image3 {
+	background-image: url(../img/three.jpg);
+}
+
+h2, p {
+	margin: 10px auto;
+}
+
+.footer {
+	text-align: left;
+    font-size: 15px;
+    line-height: 50px;
+    background: #4242d6;
+    height: 50px;
+    color: white;
+}
