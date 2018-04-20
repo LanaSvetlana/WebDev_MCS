@@ -25,19 +25,18 @@
 }
 
 .columns {
-    width: 1165px;
     margin: auto;
     margin-top: 350px;
 }
 
 .one {
-    /*width: 350px;
-    height: 560px;*/
+    width: 350px;
+    /*height: 560px;*/
     font-size: 20px;
     border: 1px solid orange;
     box-sizing: border-box;
     border-radius: 10px;
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
     padding: 30px 20px;
     /*margin-top: 350px;*/
